@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      div{
+         border: 4px solid black;
+         width: 100px;
+         height: 100px;
+      }
+      .pr{
+         overflow: hidden;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+      }
+      #bh{
+         display: none;
+      }
+      div:hover ~ #bh{
+         border: 2px solid black;
+         display: block;
+         background-color: blueviolet;
+      }
+
+     /* div{
+         border: 3divpx solid black;
+         overflow: scroll;
+         width: 400px;
+         height: 200px;
+      }
+      ::-webkit-scrollbar{
+         display: none;
+      }
+      p{
+         white-space: nowrap;
+      }
+      p{
+         text-align: justify;
+      }*/
+    </style>
+ </head>
+ <body>
+    <div >
+      <p class="pr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, modi nemo veniam minus non magni! Facere, suscipit consequatur est natus provident tempore? Earum quas harum nulla sed laboriosam vero pariatur.</p>
+    </div><br>
+    <p id="bh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officiis soluta nostrum eum optio. Delectus quae eaque, distinctio atque dolore, et modi unde laboriosam corrupti quisquam aut excepturi nobis! In?</p>
+ </body>
+ </html>
