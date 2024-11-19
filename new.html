@@ -6,32 +6,77 @@
     <title>Document</title>
     <style>
         .div1{
-             border: 2px solid black;
-             height: 250px;
+             border: 8px solid black;
+             height: 290px;
              width: 400px;
-             margin-left: 50px;
+             margin-left: 30PX;
+             margin-right: 50px;
              background-color: aquamarine;
+             margin-top: 100PX;
         }
         img{
             margin-top: 20px;
             margin-left: 50px;
             border-radius: 50%;
         }
-        #bh{
+        
+        h1{
+            border: 2px solid blue;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: beige;
+        } 
+        P{
             display: none;
         }
-        h1:active  #bh{
-            border: 2px solid;
+        h1:active + p{
+            display: block;
+            border: 6PX solid red;
+            background-color:green;
+        }
+        .div2{
+            border: 6px solid black;
+            height: 300px;
+            width: 400px;
+            background-color: aquamarine;
+            margin-left: 550PX;
+            margin-top: -310PX;
+        }
+        .img1{
+            margin-top: 20px;
+            margin-left: 50px;
+            border-radius: 50%;
+        
+            
+        }
+        H2{
+            border: 2PX solid blue;
+            background-color: white;
+            margin-left: 100PX;
+            margin-right: 100PX;
+            
+        }
+        
+        h2:active + #MR{
+            display: block;
+            border: 6PX solid red;
+            background-color:green;
         }
     </style>
 </head>
 <body>
     <div class="div1">
 <img height="150" src="./asset/car1.webp">
-<h1>click here</h1>
-    </div>
-    <p id="bh">The Land Rover Range Rover, generally shortened to Range Rover, is a 4x4 luxury SUV produced by Land Rover, a marque and sub-brand of Jaguar Land Rover. The Range Rover line was launched in 1970 by British Leyland and is now in its fifth generation.
-
+<h1 align="center">click here</h1>
+    <p>The Land Rover Range Rover, generally shortened to Range Rover, is a 4x4 luxury SUV produced by Land Rover, a marque and sub-brand of Jaguar Land Rover. The Range Rover line was launched in 1970 by British Leyland and is now in its fifth generation.
         Additional models have been launched under the Range Rover name, including the Range Rover Sport, Range Rover Evoque, and Range Rover Velar.</p>
+    </div>
+
+
+        <div class="div2"> 
+            <img class="img1"  height="200" src="./asset/car2.webp">
+            <h2 ALIGN="CENTER">CLICK HERE</h2>
+                <P id="MR">The Mahindra Thar is a compact, four-wheel drive, off-road two-door SUV manufactured by Indian automaker Mahindra and Mahindra Ltd. It was introduced in October 4, 2010 and replaced the Mahindra Major. It is the latest iteration in Mahindra's line of licensed CJ-3B Willys Jeep based off-roading oriented vehicles.</P>
+        </div>
 </body>
 </html>
