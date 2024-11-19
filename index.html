@@ -2,88 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<Z>, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .div1{
+             border: 8px solid black;
+             height: 290px;
+             width: 400px;
+             margin-left: 30PX;
+             margin-right: 50px;
+             background-color: aquamarine;
+             margin-top: 100PX;
+        }
+        img{
+            margin-top: 20px;
+            margin-left: 50px;
+            border-radius: 50%;
+        }
+        
+        h1{
+            border: 2px solid blue;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: beige;
+        } 
+        P{
+            display: none;
+        }
+        h1:active + p{
+            display: block;
+            border: 6PX solid red;
+            background-color:green;
+        }
+        .div2{
+            border: 6px solid black;
+            height: 300px;
+            width: 400px;
+            background-color: aquamarine;
+            margin-left: 550PX;
+            margin-top: -310PX;
+        }
+        .img1{
+            margin-top: 20px;
+            margin-left: 50px;
+            border-radius: 50%;
+        
+            
+        }
+        H2{
+            border: 2PX solid blue;
+            background-color: white;
+            margin-left: 100PX;
+            margin-right: 100PX;
+            
+        }
+        
+        h2:active + #MR{
+            display: block;
+            border: 6PX solid red;
+            background-color:green;
+        }
+    </style>
 </head>
-<style>
-    .p1{
-        border: 6px solid orange;
-        padding: 15px;
-        margin-right: 150px;
-        width: 200px;
-        background-color: orange;
-        margin-left: 200px;
-    }
-    .p2{
-        border: 6px solid white  ;
-        padding: 15px;
-        margin-right: 150px;
-        width: 200px;
-        background-color: white;
-        margin-left: 200px;
-    }
-    .p3{border: 6px solid  green;
-        padding: 15px;
-        margin-right: 150px;
-        width: 200px;
-        background-color: green;
-        margin-left: 200px;
-    }
-    .p4{
-        border: 2px solid black;
-        height: 500px;
-        margin-left: 200px;
-        margin-right: 350px;
-        width: 2px;
-        background-color: black;
-    }
-.p5{
-    border: 2px solid black;
-    height: 35px;
-    margin-top: -587px;
-    width: 30px;
-    border-radius: 30px;
-    margin-left: 300px;
-    backdrop-filter: ;
-}
-.p6{
-    border: 2px solid black;
-    margin-top: 550px;
-    width: 200px;
-    height: 30px;
-    background-color: green;
-    margin-left: 100px;
-}
-.p7{
-    border: 2px solid black;
-    margin-top: -67px;
-    width: 140px;
-    height: 30px;
-    background-color: white;
-    margin-left: 130px;
-}
-.p8{
-    border: 2px solid black;
-    margin-top: -68px;
-    width: 85px;
-    height: 30px;
-    background-color: orange;
-    margin-left: 160px;
-}
-
-
-
-</style>
 <body>
-    <div class="p1"></div>
-    <div class="p2"></div>
-    <div class="p3"></div>
-    <div class="p4"></div>
-    <div class="p5"></div>
-    <div class="p6"></div>
-    <div class="p7"></div>
-    <div class="p8"></div>
+    <div class="div1">
+<img height="150" src="./asset/car1.webp">
+<h1 align="center">click here</h1>
+    <p>The Land Rover Range Rover, generally shortened to Range Rover, is a 4x4 luxury SUV produced by Land Rover, a marque and sub-brand of Jaguar Land Rover. The Range Rover line was launched in 1970 by British Leyland and is now in its fifth generation.
+        Additional models have been launched under the Range Rover name, including the Range Rover Sport, Range Rover Evoque, and Range Rover Velar.</p>
+    </div>
 
 
+        <div class="div2"> 
+            <img class="img1"  height="200" src="./asset/car2.webp">
+            <h2 ALIGN="CENTER">CLICK HERE</h2>
+                <P id="MR">The Mahindra Thar is a compact, four-wheel drive, off-road two-door SUV manufactured by Indian automaker Mahindra and Mahindra Ltd. It was introduced in October 4, 2010 and replaced the Mahindra Major. It is the latest iteration in Mahindra's line of licensed CJ-3B Willys Jeep based off-roading oriented vehicles.</P>
+        </div>
 </body>
 </html>
